@@ -1,5 +1,5 @@
 pipeline {
-	agent { label 'java' }
+	agent { label 'maven' }
 
 	stages {
 		stage('prepare') {
