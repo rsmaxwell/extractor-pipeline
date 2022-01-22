@@ -1,10 +1,6 @@
 pipeline {
 	agent { label 'java' }
 
-	environment {
-		EXTRACTOR_CONFIG_FILE = credentials('5f29b607-bea6-418f-88e1-15f8f45bde15')
-	}
-
 	stages {
 		stage('prepare') {
 			steps {
